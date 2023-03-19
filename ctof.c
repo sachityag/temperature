@@ -2,10 +2,10 @@
 #include "ctof.h"
 
 
-int ctof(float c)
+float ctof(float c)
 {
 	float f;
-	c = f;
+	f = c;
 	return f;
 }
 

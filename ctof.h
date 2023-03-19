@@ -1,1 +1,1 @@
-int ctof(float c);
+float ctof(float c);
