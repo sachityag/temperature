@@ -4,11 +4,11 @@
 #include <string.h>
 
 
-int ftoc( float f)
+float ftoc( float f)
 {
 	
 	float c;
-	f = c;
+	c = f;
 	return c ;
 }
 

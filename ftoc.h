@@ -1,1 +1,1 @@
-int ftoc( float f);
+float ftoc( float f);

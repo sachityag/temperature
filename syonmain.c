@@ -5,6 +5,12 @@
 int main(int argc, char *argv[])
 {
 	float f, c;
+	if(argc == 2) {
+		f = atof(argv[1]);
+	}
+	else {
+		printf("only one number at a time\n");
+	}
 	c = ftoc(f);
 	printf("What american temperature is it? %f\n", f);
 	printf("The actual temperature is %f\n", c);
