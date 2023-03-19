@@ -1,5 +1,8 @@
-a.out: sachimain.o ctof.o
-	gcc -o a.out sachimain.o ctof.o
+a.out: main.o ctof.o ftoc.o
+	gcc -o a.out main.o ctof.o ftoc.o
+
+s.out: sachimain.o ctof.o
+	gcc -o s.out sachimain.o ctof.o
 
 sachimain.o: sachimain.c ctof.h
 	gcc sachimain.c -o sachimain.o -c
