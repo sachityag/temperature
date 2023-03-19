@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 		printf("only one number at a time\n");
 	}
 	c = ftoc(f);
-	printf("What american temperature is it? %f\n", f);
-	printf("The actual temperature is %f\n", c);
+	printf("Enter Fahrenheit temperature:  %f\n", f);
+	printf("The Celsius temperature is: %f\n", c);
 	return 0;
 }
