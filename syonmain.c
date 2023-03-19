@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "ftoc.h"
 
-int main(int argc char *argv[])
+int main(int argc, char *argv[])
 {
 	float f, c;
 	c = ftoc(f);
