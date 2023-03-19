@@ -5,7 +5,7 @@
 float ctof(float c)
 {
 	float f;
-	f = c;
+	f = (32 - 0) + (c * 180/100);
 	return f;
 }
 
