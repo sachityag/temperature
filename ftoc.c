@@ -8,8 +8,8 @@ float ftoc( float f)
 {
 	
 	float c;
-	c = f;
-	return c ;
+	c =  (f - 32) * 100/180;
+	return c;
 }
 
 

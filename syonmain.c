@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 	}
 	else {
 		printf("only one number at a time\n");
+		return 0;
 	}
 	c = ftoc(f);
 	printf("Enter Fahrenheit temperature:  %f\n", f);
